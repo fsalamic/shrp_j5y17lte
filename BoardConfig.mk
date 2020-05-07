@@ -66,7 +66,6 @@ BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_INCLUDE_CRYPTO := true
 LZMA_RAMDISK_TARGETS := recovery
-TW_USE_TOOLBOX := true
 
 #shrp
 SHRP_PATH := device/samsung/j5y17lte
