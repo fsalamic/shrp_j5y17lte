@@ -47,6 +47,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # TWRP specific build flags
+ALLOW_MISSING_DEPENDENCIES=true
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
@@ -66,4 +67,26 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_INCLUDE_CRYPTO := true
 LZMA_RAMDISK_TARGETS := recovery
 TW_USE_TOOLBOX := true
+
+#shrp
+SHRP_PATH := device/samsung/j5y17lte
+SHRP_MAINTAINER := bluedogerino
+SHRP_DEVICE_CODE := j5y17lte
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_AB := false
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/devices/virtual/camera/flash/rear_flash
+SHRP_FONP_2 := 
+SHRP_FONP_3 := 
+SHRP_FLASH_MAX_BRIGHTNESS := 1
+SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
+SHRP_REC_TYPE := normal
+SHRP_DEVICE_TYPE := A-Only
+SHRP_EXPRESS := true
+
+
 
