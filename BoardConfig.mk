@@ -72,7 +72,6 @@ TW_USE_TOOLBOX := true
 SHRP_PATH := device/samsung/j5y17lte
 SHRP_MAINTAINER := bluedogerino
 SHRP_DEVICE_CODE := j5y17lte
-SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
@@ -85,7 +84,7 @@ SHRP_FONP_3 :=
 SHRP_FLASH_MAX_BRIGHTNESS := 1
 SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
 SHRP_REC_TYPE := normal
-SHRP_DEVICE_TYPE := A-Only
+SHRP_DEVICE_TYPE := A_Only
 SHRP_EXPRESS := true
 
 
