@@ -71,6 +71,7 @@ LZMA_RAMDISK_TARGETS := recovery
 SHRP_PATH := device/samsung/j5y17lte
 SHRP_MAINTAINER := bluedogerino
 SHRP_DEVICE_CODE := j5y17lte
+SHRP_OFFICIAL := true
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
