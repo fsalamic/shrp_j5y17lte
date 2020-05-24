@@ -86,6 +86,6 @@ SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
 SHRP_REC_TYPE := normal
 SHRP_DEVICE_TYPE := A_Only
 SHRP_EXPRESS := true
-
+SHRP_OFFICIAL := true
 
 
